@@ -1,0 +1,105 @@
+/* CSS Document - Linh */
+html {
+    height: 100%;
+}
+
+body {
+  background: #108690 !important;
+}
+
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); 
+}
+
+.formlogin{
+ color: white;  
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+
+}
+.formloginHeading, .formloginIntro{
+    color: white;
+    text-align: center;
+    
+}
+
+a .link { color: white; } 
+a .link:hover { color:  none; }
+
+.formlogin .formloginHeading, .formlogin .formloginIntro,
+.formlogin .checkbox {
+  margin-bottom: 20px;
+  font-family: "Lato", sans-serif;
+}
+
+.formlogin .checkbox {
+  font-weight: normal;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+.formlogin .formControl {
+  color: white;    
+  position: relative;
+  font-size: 16px;
+  height: 50px;
+  width: 300px;
+  padding: 10px;
+  background: none; 
+  border: 1px solid white;
+}
+
+.formlogin .formControl:focus {
+  z-index: 2;
+}
+.formlogin input[type="text"] {
+  color: white;      
+  margin: 15px 0px;   
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.formlogin input[type="password"] {
+  color: white;      
+  margin: 15px 0px;   
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+::placeholder{
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+.btn{
+    background: #FCCF14;
+    border: none;
+    color:#108690;
+    font-family: "Lato", sans-serif;
+}
+
+.btn:focus {
+    background: #2F3180;
+    border: none;
+    color:#FCCF14;
+}
+
+.btn:hover{
+    background: #108690;
+    border: 1px solid #FCCF14;
+    color:#FCCF14;
+}
+
+svg{
+display: block;
+margin: auto;
+margin-bottom: 20px;    
+}
+
+a {
+    color: white;
+    width: 200px;
+}

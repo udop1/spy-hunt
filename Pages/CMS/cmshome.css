@@ -1,0 +1,226 @@
+/* CSS Document  - Linh & Adam*/
+
+/*Header Styles*/
+header {
+    display:flex;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    color:  #108690;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #108690;
+}
+
+.login-info-box{
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+h1{
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.username{
+    font-weight: 200;
+}
+
+.logout-button{
+  width: 150px;
+  height: 45px;
+  font-size: 11px; 
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #47525E;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  }
+
+.logout-button:hover {
+  background-color: #FCCF14;
+  box-shadow: 0px 15px 20px rgba(252,207,20,0.4);
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+.log-out-div{
+    padding: 10px;
+}
+
+a.btn logout-button{
+    text-decoration: none;
+}
+
+.login-info-box a {
+    text-decoration: none;
+}
+
+/*Form Styles*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 20px;
+    margin-bottom:100px;
+}
+
+.forms {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+}
+
+form input {
+    margin-bottom: 25px;
+}
+
+.show-all-hunts a {
+    cursor: pointer;
+}
+
+section {
+    margin: auto;
+    width: 100%;
+}
+
+.card {
+    padding: 20px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none !important;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.form-control-label {
+    margin-bottom: 0
+}
+
+select, input,
+textarea, btn-submit-marker,btn-submit-hunt {
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #00BCD4;
+    outline-width: 0;
+    font-weight: 400
+}
+
+label{
+    font-weight: 500;
+}
+
+h5{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+::placeholder, option{
+    font-size: 15px;
+}
+
+.btn-submit-marker, .btn-submit-hunt, .btn-submit-edit{
+  width: 190px;
+  height: 45px;
+  font-size: 13px; 
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: white;
+  background-color: #108690;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;    
+}
+
+.btn-submit-marker:hover, .btn-submit-hunt:hover, .btn-submit-edit:hover {
+  background-color: #FCCF14;
+  box-shadow: 0px 15px 20px rgba(252,207,20,0.4);
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+.fa-edit{
+    color: #FCCF14;
+    padding:0 2px;    
+}
+.fa-edit:hover{
+    box-shadow: 0px 15px 20px rgba(252,207,20,0.4);
+    transform: translateY(-3px);
+}
+.fa-trash{
+    color: #EC0303;
+    padding:0 2px;
+}
+.fa-trash:hover{
+    box-shadow: 0px 15px 20px rgba(236,3,3,0.4);
+     transform: translateY(-3px);
+}
+
+.row{
+    justify-content: center;
+}
+
+/*Navigation Menu Styles*/
+#menu {
+	display: grid;
+	grid-template-columns: repeat(4, 25%);
+    padding: 10px 0px;
+}
+
+#menu a, #menu div {
+	display: flex;
+	justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.menuIcons{
+    width: 25px;
+    height: 25px;
+    display: block;
+	margin-bottom: 5px;
+}
+
+.menuTexts{
+    margin-top: auto;
+    font-size: 10px;
+    color: #1d1e4e;
+    text-decoration: none;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+    background-color: white;
+}

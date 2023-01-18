@@ -1,0 +1,69 @@
+/* CSS Document - Linh */
+/*Body Style*/
+
+html{
+height: 100%;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #1D1E4E;
+  margin: auto;
+  padding: 15px; }
+
+header img {
+  height: 200px; }
+
+/*Navigation Menu Styles*/
+#menu {
+ display: grid;
+ grid-template-columns: repeat(4, 25%);
+ padding: 10px 0px;
+}
+
+#menu a, #menu div {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+text-align: center;
+flex-direction: column;
+text-decoration: none;
+}
+
+.menuIcons{
+  width: 25px;
+  height: 25px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.menuTexts{
+ font-size: 10px;
+  margin-top: auto;
+  color: #1d1e4e;
+  text-decoration: none;
+}
+
+#footer {
+  position: fixed;;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+  background-color: white;
+}
+
+/*Table Styles*/
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+   background-color: #2F3180;
+   color: white;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #108690;
+  color: white;    
+}
