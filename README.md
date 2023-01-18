@@ -1,2 +1,9 @@
-# spy-hunt
-A spy-themed geocaching app with CMS that used the Google Maps API for geolocation where users have the ability to create their own treasure hunts.
+# Spy Hunt
+This assignment's brief was to create a treasure hunt mobile app with a content management system (CMS).
+
+## Technologies Used
+- Bootstrap
+- JS
+- PHP
+- MySQL
+- Google Maps API
